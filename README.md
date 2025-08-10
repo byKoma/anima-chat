@@ -114,7 +114,7 @@ Just an Open-Source LLM Chat platform supporting OpenAI, OpenRouter and Ollama.
 
 ---
 
-## ⚙️ Configuration
+## Configuration
 
 All configuration is managed via the `config.yaml` file:
 
@@ -165,7 +165,7 @@ All configuration is managed via the `config.yaml` file:
 
 ---
 
-## 🎨 Customization
+## Customization
 
 ### Colors and theme
 
@@ -192,9 +192,9 @@ Edit CSS-Variables in `app/globals.css`:
 
 ---
 
-## 🛠️ Development
+## Development
 
-## 📁 Project structure
+## Project structure
 
 ```bash
   anima-chat/
@@ -218,7 +218,7 @@ Edit CSS-Variables in `app/globals.css`:
   └── README.md             # This file
 ```
 
-## 🔧 API endpoints
+## API endpoints
 
 ### POST /api/chat
 
@@ -250,7 +250,7 @@ Chat export in different formats.
 
 ---
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### API key issues
 
@@ -269,13 +269,13 @@ Chat export in different formats.
 
 ---
 
-## 📝 License
+## License
 
 MIT License - Free to use with attribution.
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 1. Fork Repository
 2. Create Feature Branch
@@ -283,7 +283,7 @@ MIT License - Free to use with attribution.
 4. Push Branch
 5. Open Pull Request
 
-## 📞 Support
+## Support
 
 For problems and questions, please open a GitHub issue.
 

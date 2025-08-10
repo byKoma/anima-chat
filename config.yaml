@@ -1,0 +1,30 @@
+llm:
+  active_provider: openrouter # LLM Provider that is Currently used
+  api_keys:
+    openai: sk-your-openai-key-here # Insert your OpenAI API key here
+    openrouter: sk-or-v1-your-openrouter-key-here # Insert your Openrouter API key here
+  models:
+    openai: # Insert your OpenAI models you want to use
+      - gpt-4o-mini
+      - gpt-4
+    openrouter: # Insert your Openrouter models you want to use (https://openrouter.ai/models)
+      - deepseek/deepseek-r1-0528:free
+      - qwen/qwen3-coder:free
+    ollama: # Insert your installed Ollama models (https://ollama.com/search)
+      - qwen3-coder
+      - deepseek-r1
+  default_model: deepseek/deepseek-r1-0528:free # Default used LLM Model
+  system_prompt: Du bist ein hilfreicher Assistent. Sei präzise und hilfreich. Du wirst auf der OpenSource WebEngine Anima verwendet. # System prompt to tell the AI how to act
+  temperature: 0.7
+  max_tokens: 2048
+  top_p: 1
+app:
+  theme: dark # Select your preferred Theme for the Chat (Light/Dark)
+  auto_save: true # Autosave Chats
+  max_history_files: 1000 # Max chats that will be saved
+ui:
+  sidebar_width: 260
+  show_timestamps: true # Show timestamps in Messages
+  show_word_count: false # Show Word count in Messages
+  enable_sound: true # Play Sound when AI finished a Message
+  compact_mode: true

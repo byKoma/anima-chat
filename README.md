@@ -50,6 +50,9 @@ Just an Open-Source LLM Chat platform supporting OpenAI, OpenRouter and Ollama.
 
 #### Linux
 
+> [!NOTE] 
+> The Installation Script does not work properly on WSL due to Windows Permission errors! [!NOTE]
+
 1. **Clone the Repository**
 
    ```bash
